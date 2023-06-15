@@ -1,0 +1,231 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Red Hat Display', sans-serif;
+
+}
+
+@media (min-width:320px) {
+
+	.card {
+		width: 85%;
+		margin: auto;
+	}
+
+	.container {
+		width: 90%;
+		margin: auto;
+	}
+
+	.heading {
+		font-size: 0.9rem;
+	}
+}
+
+@media (min-width:620px) {
+	body {
+		background-color: #8C8C8E;
+	}
+
+	.card {
+		width: 50%;
+		margin: auto;
+	}
+
+	.container {
+		background-color: #ffff;
+		width: 70%;
+		margin: auto;
+		border-radius: 10px;
+		height: 700px;
+		margin-top: 20%;
+
+
+	}
+
+	.heading {
+		font-size: 1.3rem;
+	}
+}
+
+@media (min-width:960px) {
+	body {
+		background-color: #8C8C8E;
+	}
+
+	.card {
+		width: 50%;
+		margin: auto;
+	}
+
+	.container {
+		background-color: #ffff;
+		width: 50%;
+		margin: auto;
+		border-radius: 10px;
+		height: 700px;
+		margin-top: 30px;
+	}
+
+	.heading {
+		font-size: 1.3rem;
+	}
+
+}
+
+.header {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	padding-top: 10px;
+}
+
+a {
+	color: #fff;
+}
+
+.header-icon2 {
+	margin: auto;
+	font-size: 1.5rem;
+	color: rgb(29, 155, 240);
+	padding-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.heading {
+	padding: 20px 0 15px 0;
+}
+
+.signin-google {
+	display: flex;
+	gap: 10px;
+	padding: 10px 25px;
+	border: 1px solid #BEBEBE;
+	text-align: center;
+	color: #484848;
+	border-radius: 20px;
+	justify-content: center;
+}
+
+.signin-apple {
+	display: flex;
+	gap: 10px;
+	padding: 10px 25px;
+	border: 1px solid #BEBEBE;
+	text-align: center;
+	color: #484848;
+	border-radius: 20px;
+	justify-content: center;
+	margin-top: 20px;
+	font-weight: 800;
+}
+
+.login-or {
+	text-align: center;
+	position: relative;
+	padding: 15px 0;
+}
+
+.login-or p::after {
+	content: "";
+	display: block;
+	width: 45%;
+	height: 1px;
+	color: #BEBEBE;
+	background-color: #BEBEBE;
+	position: absolute;
+	top: 49%;
+	left: 2%;
+}
+
+.login-or p::before {
+	content: "";
+	display: block;
+	width: 45%;
+	height: 1px;
+	color: #BEBEBE;
+	background-color: #BEBEBE;
+	position: absolute;
+	top: 49%;
+	right: 2%;
+}
+
+.input-box input {
+	width: 100%;
+	padding: 15px 10px;
+	border-radius: 5px;
+	border: 1px solid #BEBEBE;
+}
+
+.input-box-login input {
+	width: 100%;
+	padding: 15px 10px;
+	border-radius: 5px;
+	border: 1px solid #BEBEBE;
+}
+
+.name-message {
+	color: rgb(252, 21, 21);
+	display: none;
+}
+
+.pass-message {
+	color: rgb(252, 21, 21);
+	display: none;
+}
+
+.view {
+	display: block;
+}
+
+.input-box,
+.input-box-login {
+	margin-top: 25px;
+}
+
+::placeholder {
+	font-size: 1.05rem;
+}
+
+.next-button {
+	padding: 10px 0;
+	background-color: #090909;
+	border-radius: 20px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.next-button a {
+	color: #ffff;
+	font-weight: 600;
+}
+
+.forgot-button {
+	padding: 10px 0;
+	border-radius: 20px;
+	border: 1px solid #BEBEBE;
+	text-align: center;
+	margin-top: 15px;
+
+}
+
+.forgot-button a {
+	color: #484848;
+	font-weight: 600;
+}
+
+.login-bottom {
+	display: flex;
+	gap: 10px;
+	justify-content: flex-start;
+	padding: 35px 0;
+}
+
+.login-bottom a {
+	color: rgb(29, 155, 240);
+	font-weight: 600;
+}
